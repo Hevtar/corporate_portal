@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "guardian_portal"
+version = "0.0.1"
+description = "corporate portal for orders calculations, knowlages book, blog, etc."
+authors = ["Pavel DErgilev"]
+license = "Mozzila Public 2.0"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Django = "^4.2.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
